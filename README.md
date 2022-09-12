@@ -1,8 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Sa Aung Htet Nyein's Microverse Module 1 Capstone Project
+# CC Global Submit 2015 Microverse Module 1 Capstone Project
 
 > CC Global Submit 2015 as Microverse Module 1 Capstone Project.
+
+## Live Demo
+
+[To Live Preview](https://aghtetnyein.github.io/Module-1-Capstone-Project)
 
 ## Built With
 
@@ -16,6 +20,14 @@
 ### Install
 
 - npm install
+
+## Screenshot for Desktop version
+
+<img width="1440" alt="CC Summit Korea Dekstop" src="https://user-images.githubusercontent.com/42200250/189611695-79db1375-1f07-4a90-88e8-388afe199017.png">
+
+## Screenshot for Desktop version
+
+<img width="426" alt="CC Summit Korea Mobile" src="https://user-images.githubusercontent.com/42200250/189611909-ba11028e-e87b-493e-bd01-198522fe1bde.png">
 
 ## Authors
 
