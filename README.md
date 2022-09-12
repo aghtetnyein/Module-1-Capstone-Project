@@ -21,13 +21,14 @@
 
 - npm install
 
-## Screenshot for Desktop version
+## Screenshots
 
-<img width="1440" alt="CC Summit Korea Dekstop" src="https://user-images.githubusercontent.com/42200250/189611695-79db1375-1f07-4a90-88e8-388afe199017.png">
-
-## Screenshot for Desktop version
-
-<img width="426" alt="CC Summit Korea Mobile" src="https://user-images.githubusercontent.com/42200250/189611909-ba11028e-e87b-493e-bd01-198522fe1bde.png">
+- **Home Page**
+  <img width="1440" alt="Desktop Home Page" src="https://user-images.githubusercontent.com/42200250/189685287-303ad9af-5df0-4397-9312-14f25137df7d.png">
+  <img width="336" alt="Mobile Home Page" src="https://user-images.githubusercontent.com/42200250/189686034-98db3840-b16b-4dbf-a4ce-a485711b6527.png">
+- **About Page**
+  <img width="1440" alt="Desktop About Page" src="https://user-images.githubusercontent.com/42200250/189685648-28a1546f-76b3-4951-a053-3dea89e9651a.png">
+  <img width="336" alt="Mobile About Page" src="https://user-images.githubusercontent.com/42200250/189685821-182e2317-c857-4d54-9fe6-09a20eecef89.png">
 
 ## Authors
 
