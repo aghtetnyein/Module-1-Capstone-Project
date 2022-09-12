@@ -1,22 +1,27 @@
 const programmes = [
   {
     title: 'Lecture',
+    icon: './assets/icons/lecture.png',
     desc: 'Listen to the speakers from various countries about the messages of sharing and opening.',
   },
   {
     title: 'CC Exhibition',
+    icon: './assets/icons/exhibition.png',
     desc: 'Appreciate various creations applying CC license of artists, organized from Art Center Nabi.',
   },
   {
     title: 'Forum',
+    icon: './assets/icons/forum.png',
     desc: 'Have a time to share your thoughts and opinions with experts for each topic.',
   },
   {
     title: 'Workshop',
+    icon: './assets/icons/workshop.png',
     desc: 'Try creating your own work using open source license rather than just watching.',
   },
   {
     title: 'CC Ignite',
+    icon: './assets/icons/ignite.png',
     desc: 'Get opportunities to network with CC affiliates around the world, also after the summit.',
   },
 ];
@@ -120,28 +125,39 @@ function enableScroll() {
 programmes.forEach((programme) => {
   programmeDiv.innerHTML += `
     <div class="grid grid-cols-12 gap-6 md:gap-4 items-center bg-gray-600/50 px-4 py-6 md:px-6 md:py-8 md:text-center">
-      <div class="col-span-2 md:col-span-12">
-        <i class="fa-solid fa-circle text-[3rem] p-4"></i>
+      <div class="col-span-3 md:col-span-12 flex items-center justify-center">
+        <img class="w-20 h-20" src=${programme.icon} alt=${programme.title}></img>
       </div>
-      <h3 class="col-span-3 md:col-span-12 text-[2rem] text-[#EC5242] font-bold">
+      <div class="col-span-9 md:col-span-12">
+        <h3 class="text-[2rem] text-[#EC5242] font-bold">
         ${programme.title}
-      </h3>
-      <p class="col-span-7 md:col-span-12 text-[1.5rem] text-gray-300">
-        ${programme.desc}
-      </p>
+        </h3>
+        <p class="mt-3 text-[1.5rem] text-gray-300">
+          ${programme.desc}
+        </p>
+      </div>
     </div>
   `;
 });
 
 speakers.forEach((speaker) => {
   speakerDiv.innerHTML += `
-    <div class="grid grid-cols-5 gap-6">
-      <div class="col-span-2">
-        <img
-          class="w-52 h-52 xl:w-60 xl:h-60 object-cover"
-          src=${speaker.img}
-          alt=${speaker.name}
-        />
+    <div class="grid grid-cols-5 justify-center gap-6">
+      <div class="col-span-2 w-52 h-52 md:w-64 md:h-64 xl:w-72 xl:h-72  relative">
+        <div class="absolute top-0 left-0">
+          <img
+            class="w-28 h-28 md:w-40 md:h-40 object-cover"
+            src="./assets/images/Profile Background.svg"
+            alt="background"
+          />
+        </div>
+        <div class="absolute bottom-0 right-0">
+          <img
+            class="w-44 h-44 md:w-52 md:h-52 xl:w-64 xl:h-64 object-cover"
+            src=${speaker.img}
+            alt=${speaker.name}
+          />
+        </div>
       </div>
       <div class="col-span-3">
         <h3 class="text-[1.5rem] text-[#272A31] font-bold">
