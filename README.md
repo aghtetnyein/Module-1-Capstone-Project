@@ -48,7 +48,7 @@ Give a ⭐️ if you like this project and thank you!
 
 - **README.md inspired by Emilia Andrzejewska @Microverse** [@nidalaa](https://github.com/nidalaa)
 - **Project design inspired by** [@Cindy Shin in Behance](https://www.behance.net/adagio07) **and give full credit full credit to owner with** [@Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0)
-- **Logo credited to Bumble** [@bumble](https://bumble.com/en/)
+- **Logo credited to Bumble which is the dating and making friends website** [@bumble](https://bumble.com/en/)
 
 ## 📝 License
 
