@@ -1,28 +1,28 @@
 const programmes = [
   {
-    title: 'Lecture',
-    icon: './assets/icons/lecture.png',
-    desc: 'Listen to the speakers from various countries about the messages of sharing and opening.',
+    title: 'Franchise',
+    icon: './assets/icons/franchise.png',
+    desc: 'Digital marketing for franchisees',
   },
   {
-    title: 'CC Exhibition',
-    icon: './assets/icons/exhibition.png',
-    desc: 'Appreciate various creations applying CC license of artists, organized from Art Center Nabi.',
+    title: 'Small Business',
+    icon: './assets/icons/small-business.png',
+    desc: 'Digital marketing for small businesses',
   },
   {
-    title: 'Forum',
-    icon: './assets/icons/forum.png',
-    desc: 'Have a time to share your thoughts and opinions with experts for each topic.',
+    title: 'Home Services',
+    icon: './assets/icons/home.png',
+    desc: 'Digital marketing for home services',
   },
   {
-    title: 'Workshop',
-    icon: './assets/icons/workshop.png',
-    desc: 'Try creating your own work using open source license rather than just watching.',
+    title: 'Hospitality',
+    icon: './assets/icons/hospital.png',
+    desc: 'Digital marketing for home hospitality industry',
   },
   {
-    title: 'CC Ignite',
-    icon: './assets/icons/ignite.png',
-    desc: 'Get opportunities to network with CC affiliates around the world, also after the summit.',
+    title: 'Health',
+    icon: './assets/icons/health.png',
+    desc: 'Digital marketing for home healthcare industry',
   },
 ];
 
@@ -128,14 +128,12 @@ programmes.forEach((programme) => {
       <div class="col-span-3 md:col-span-12 flex items-center justify-center">
         <img class="w-20 h-20" src=${programme.icon} alt=${programme.title}></img>
       </div>
-      <div class="col-span-9 md:col-span-12">
-        <h3 class="text-[2rem] text-[#EC5242] font-bold">
+      <h3 class="col-span-4 md:col-span-12 text-[2rem] text-[#ECA72C] font-bold">
         ${programme.title}
-        </h3>
-        <p class="mt-3 text-[1.5rem] text-gray-300">
-          ${programme.desc}
-        </p>
-      </div>
+      </h3>
+      <p class="col-span-5 md:col-span-12 mt-3 text-[1.5rem] text-gray-300">
+        ${programme.desc}
+      </p>
     </div>
   `;
 });
@@ -160,14 +158,14 @@ speakers.forEach((speaker) => {
         </div>
       </div>
       <div class="col-span-3">
-        <h3 class="text-[1.5rem] text-[#272A31] font-bold">
+        <h3 class="text-[1.5rem] text-[#2E4052] font-bold">
           ${speaker.name}
         </h3>
-        <p class="mt-2 text-[1.2rem] text-[#EC5242] italic leading-snug">
+        <p class="mt-2 text-[1.2rem] text-[#ECA72C] italic leading-snug">
           ${speaker.title}
         </p>
         <div class="mt-4 mb-8 w-8 border-t-2 border-gray-300"></div>
-        <p class="text-[1.2rem] text-[#272A31]">
+        <p class="text-[1.2rem] text-[#2E4052]">
           ${speaker.biography}
         </p>
       </div>

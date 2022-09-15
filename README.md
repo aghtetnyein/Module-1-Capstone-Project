@@ -24,11 +24,11 @@
 ## Screenshots
 
 - **Home Page**
-  <img width="1440" alt="Desktop Home Page" src="https://user-images.githubusercontent.com/42200250/189685287-303ad9af-5df0-4397-9312-14f25137df7d.png">
-  <img width="336" alt="Mobile Home Page" src="https://user-images.githubusercontent.com/42200250/189686034-98db3840-b16b-4dbf-a4ce-a485711b6527.png">
+  <img width="1440" alt="Desktop Home" src="https://user-images.githubusercontent.com/42200250/190354668-c3164647-8d56-4f3c-98df-1cfb12015a47.png">
+  <img width="334" alt="Mobile Home" src="https://user-images.githubusercontent.com/42200250/190354880-e766c826-61ac-43f9-95a9-f940c7bef433.png">
 - **About Page**
-  <img width="1440" alt="Desktop About Page" src="https://user-images.githubusercontent.com/42200250/189685648-28a1546f-76b3-4951-a053-3dea89e9651a.png">
-  <img width="336" alt="Mobile About Page" src="https://user-images.githubusercontent.com/42200250/189685821-182e2317-c857-4d54-9fe6-09a20eecef89.png">
+  <img width="1440" alt="Desktop About" src="https://user-images.githubusercontent.com/42200250/190354940-35cb2413-c9c7-4858-a3ae-c9e32b60e587.png">
+  <img width="337" alt="Mobile About" src="https://user-images.githubusercontent.com/42200250/190355058-b9db666d-ea3d-4203-b287-eb47dece186b.png">
 
 ## Authors
 
@@ -48,6 +48,7 @@ Give a ⭐️ if you like this project and thank you!
 
 - **README.md inspired by Emilia Andrzejewska @Microverse** [@nidalaa](https://github.com/nidalaa)
 - **Project design inspired by** [@Cindy Shin in Behance](https://www.behance.net/adagio07) **and give full credit full credit to owner with** [@Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0)
+- **Logo credited to Bumble** [@bumble](https://bumble.com/en/)
 
 ## 📝 License
 
